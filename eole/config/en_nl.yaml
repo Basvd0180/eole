@@ -1,0 +1,20 @@
+# en_nl.yaml
+
+## Where the samples will be written
+save_data: /home/u630910/marian/eole/eole/run/example
+## Where the vocab(s) will be written
+src_vocab: /home/u630910/marian/eole/eole/run/example.vocab.src
+tgt_vocab: /home/u630910/marian/eole/eole/run/example.vocab.tgt
+# Prevent overwriting existing files in the folder
+overwrite: False
+
+# Corpus opts:
+data:
+    corpus_1:
+        path_src: /home/u630910/marian/eole/eole/data/JRC-Acquis.en-nl.en-filtered.en.subword.train 
+        path_tgt: /home/u630910/marian/eole/eole/data/JRC-Acquis.en-nl.nl-filtered.nl.subword.train
+    valid:
+        path_src: /home/u630910/marian/eole/eole/data/JRC-Acquis.en-nl.en-filtered.en.subword.test
+        path_tgt: /home/u630910/marian/eole/eole/data/JRC-Acquis.en-nl.nl-filtered.nl.subword.test
+
+
